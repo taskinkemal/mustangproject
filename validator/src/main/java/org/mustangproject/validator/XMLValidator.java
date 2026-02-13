@@ -462,7 +462,7 @@ public class XMLValidator extends Validator {
 
 		} catch ( ArithmeticException e) {
 			try {
-				context.addResultItem(new ValidationResultItem(ESeverity.warning, "Arithmetical issue:"+e.getMessage()).setSection(10));
+				context.addResultItem(new ValidationResultItem(ESeverity.notice, "Arithmetical issue:"+e.getMessage()).setSection(10));
 
 			} catch (IrrecoverableValidationError ie) {
 				LOGGER.error(ie.getMessage(), ie);
