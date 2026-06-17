@@ -1,3 +1,14 @@
+2.24.x
+=======
+- #1145 Document-level allowance with VAT category O emits RateApplicablePercent (violates BR-O-06)
+
+
+2.24.0
+=======
+2026-06-11
+
+- #1143 LineID may not be written empty in DeliveryNoteReferencedDocument
+- #1141 ZUGFeRD 2.5/Factur-X 1.09
 - #1127'Fix possible StringIndexOutOfBoundsException when extracting XMP.'
 - #1133 incorrect warning in Subinvoiceline calculation
 - Add Tax ExemptionReasonCode on document level.
